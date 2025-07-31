@@ -1,0 +1,94 @@
+{
+  "status": "success",
+  "data": {
+    "id": "survey_003",
+    "title": "User Experience & Feature Feedback Survey",
+    "description": "Help us improve by sharing your experience and preferences.",
+    "created_at": "2025-07-31T10:00:00Z",
+    "valid_until": "2025-08-20T23:59:59Z",
+    "estimated_time_minutes": 8,
+    "questions": [
+      {
+        "id": "q201",
+        "question_text": "How did you hear about us?",
+        "type": "dropdown",
+        "is_required": true,
+        "options": [
+          { "id": "opt301", "text": "Social Media" },
+          { "id": "opt302", "text": "Friend or Family" },
+          { "id": "opt303", "text": "Google Search" },
+          { "id": "opt304", "text": "Advertisement" },
+          { "id": "opt305", "text": "Other" }
+        ]
+      },
+      {
+        "id": "q202",
+        "question_text": "Please upload a photo of your workspace using our product (optional).",
+        "type": "image",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q203",
+        "question_text": "Do you think our product meets your needs?",
+        "type": "yes_no",
+        "is_required": true,
+        "options": []
+      },
+      {
+        "id": "q204",
+        "question_text": "Please select the date you started using our product.",
+        "type": "date",
+        "is_required": true,
+        "options": []
+      },
+      {
+        "id": "q205",
+        "question_text": "Share your current location (optional).",
+        "type": "location",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q206",
+        "question_text": "Which new features would you like to see?",
+        "type": "text",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q207",
+        "question_text": "How likely are you to recommend us to a friend?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "options": []
+      },
+      {
+        "id": "q208",
+        "question_text": "Which of these improvements matter most to you?",
+        "type": "multiple_choice",
+        "is_required": true,
+        "options": [
+          { "id": "opt401", "text": "Faster customer support" },
+          { "id": "opt402", "text": "More intuitive UI" },
+          { "id": "opt403", "text": "Lower pricing" },
+          { "id": "opt404", "text": "Better mobile app" },
+          { "id": "opt405", "text": "More integrations" }
+        ]
+      },
+      {
+        "id": "q209",
+        "question_text": "What best describes your primary use case?",
+        "type": "single_choice",
+        "is_required": true,
+        "options": [
+          { "id": "opt501", "text": "Personal productivity" },
+          { "id": "opt502", "text": "Team collaboration" },
+          { "id": "opt503", "text": "Client project management" },
+          { "id": "opt504", "text": "Educational purposes" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "survey_001",
+      "title": "Customer Satisfaction Survey",
+      "description": "Help us improve our service by answering a few questions.",
+      "created_at": "2025-07-25T10:30:00Z",
+      "valid_until": "2025-08-10T23:59:59Z",
+      "category": "Feedback",
+      "estimated_time_minutes": 5,
+      "number_of_questions": 8,
+      "is_completed": false,
+      "thumbnail_url": "https://example.com/images/survey_001.png"
+    },
+    {
+      "id": "survey_002",
+      "title": "Product Feedback - New Launch",
+      "description": "Share your thoughts on our new product.",
+      "created_at": "2025-07-20T08:00:00Z",
+      "valid_until": "2025-08-15T23:59:59Z",
+      "category": "Product Research",
+      "estimated_time_minutes": 3,
+      "number_of_questions": 5,
+      "is_completed": true,
+      "thumbnail_url": null
+    }
+  ]
+}
