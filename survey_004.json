@@ -1,0 +1,509 @@
+{
+  "status": "success",
+  "data": {
+    "id": "survey_004",
+    "title": "Comprehensive Customer & Product Experience Survey",
+    "description": "A detailed survey to help us improve every aspect of our product and service.",
+    "created_at": "2025-08-10T12:00:00Z",
+    "valid_until": "2025-09-01T23:59:59Z",
+    "estimated_time_minutes": 30,
+    "questions": [
+      {
+        "id": "q401",
+        "question_text": "How satisfied are you with our product overall?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "group": "A",
+        "options": []
+      },
+      {
+        "id": "q402",
+        "question_text": "Which product feature do you find most useful?",
+        "type": "single_choice",
+        "is_required": true,
+        "group": "C",
+        "options": [
+          { "id": "opt401", "text": "Dashboard" },
+          { "id": "opt402", "text": "Analytics" },
+          { "id": "opt403", "text": "Reports" },
+          { "id": "opt404", "text": "Notifications" }
+        ]
+      },
+      {
+        "id": "q403",
+        "question_text": "Please suggest one improvement for the user interface.",
+        "type": "text",
+        "is_required": false,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q404",
+        "question_text": "Rate the speed of our application.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q405",
+        "question_text": "Which device do you use most often for our product?",
+        "type": "dropdown",
+        "is_required": true,
+        "group": "A",
+        "options": [
+          { "id": "opt405", "text": "Laptop" },
+          { "id": "opt406", "text": "Desktop" },
+          { "id": "opt407", "text": "Tablet" },
+          { "id": "opt408", "text": "Mobile" }
+        ]
+      },
+      {
+        "id": "q406",
+        "question_text": "Do you find our product secure?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q407",
+        "question_text": "Select all the features you use regularly.",
+        "type": "multiple_choice",
+        "is_required": false,
+        "group": "C",
+        "options": [
+          { "id": "opt409", "text": "File Sharing" },
+          { "id": "opt410", "text": "Chat" },
+          { "id": "opt411", "text": "Video Call" },
+          { "id": "opt412", "text": "Integrations" }
+        ]
+      },
+      {
+        "id": "q408",
+        "question_text": "Rate our customer support.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q409",
+        "question_text": "Would you recommend our product to others?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "A",
+        "options": []
+      },
+      {
+        "id": "q410",
+        "question_text": "Which industry do you work in?",
+        "type": "dropdown",
+        "is_required": true,
+        "group": "B",
+        "options": [
+          { "id": "opt413", "text": "Technology" },
+          { "id": "opt414", "text": "Finance" },
+          { "id": "opt415", "text": "Healthcare" },
+          { "id": "opt416", "text": "Other" }
+        ]
+      },
+      {
+        "id": "q411",
+        "question_text": "How would you rate the clarity of our product documentation?",
+        "type": "rating",
+        "is_required": false,
+        "scale": 5,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q412",
+        "question_text": "Which subscription plan do you currently have?",
+        "type": "single_choice",
+        "is_required": true,
+        "group": "D",
+        "options": [
+          { "id": "opt417", "text": "Free" },
+          { "id": "opt418", "text": "Basic" },
+          { "id": "opt419", "text": "Pro" },
+          { "id": "opt420", "text": "Enterprise" }
+        ]
+      },
+      {
+        "id": "q413",
+        "question_text": "List any integrations you would like us to add.",
+        "type": "text",
+        "is_required": false,
+        "group": "A",
+        "options": []
+      },
+      {
+        "id": "q414",
+        "question_text": "Rate the ease of navigation in our application.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q415",
+        "question_text": "Which communication channels do you prefer for updates?",
+        "type": "multiple_choice",
+        "is_required": true,
+        "group": "C",
+        "options": [
+          { "id": "opt421", "text": "Email" },
+          { "id": "opt422", "text": "SMS" },
+          { "id": "opt423", "text": "In-app notifications" },
+          { "id": "opt424", "text": "Social media" }
+        ]
+      },
+      {
+        "id": "q416",
+        "question_text": "Is the onboarding process easy to follow?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q417",
+        "question_text": "Which of these features do you think should be improved first?",
+        "type": "single_choice",
+        "is_required": true,
+        "group": "A",
+        "options": [
+          { "id": "opt425", "text": "Performance" },
+          { "id": "opt426", "text": "Design" },
+          { "id": "opt427", "text": "Features" },
+          { "id": "opt428", "text": "Security" }
+        ]
+      },
+      {
+        "id": "q418",
+        "question_text": "Please describe your last experience with our customer support.",
+        "type": "text",
+        "is_required": false,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q419",
+        "question_text": "Rate the mobile app's stability.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q420",
+        "question_text": "Would you attend webinars about our product?",
+        "type": "yes_no",
+        "is_required": false,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q421",
+        "question_text": "How often do you use our product in a week?",
+        "type": "dropdown",
+        "is_required": true,
+        "group": "A",
+        "options": [
+          { "id": "opt429", "text": "Daily" },
+          { "id": "opt430", "text": "2-3 times" },
+          { "id": "opt431", "text": "Once a week" },
+          { "id": "opt432", "text": "Rarely" }
+        ]
+      },
+      {
+        "id": "q422",
+        "question_text": "Select all payment methods you have used.",
+        "type": "multiple_choice",
+        "is_required": false,
+        "group": "B",
+        "options": [
+          { "id": "opt433", "text": "Credit Card" },
+          { "id": "opt434", "text": "PayPal" },
+          { "id": "opt435", "text": "Bank Transfer" },
+          { "id": "opt436", "text": "Other" }
+        ]
+      },
+      {
+        "id": "q423",
+        "question_text": "How visually appealing is our product design?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q424",
+        "question_text": "Do you find our pricing reasonable?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q425",
+        "question_text": "Which competitors have you used before?",
+        "type": "text",
+        "is_required": false,
+        "group": "A",
+        "options": []
+      },
+      {
+        "id": "q426",
+        "question_text": "Rate the accuracy of our analytics feature.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q427",
+        "question_text": "Which content format do you prefer for tutorials?",
+        "type": "single_choice",
+        "is_required": true,
+        "group": "C",
+        "options": [
+          { "id": "opt437", "text": "Video" },
+          { "id": "opt438", "text": "PDF" },
+          { "id": "opt439", "text": "Interactive Guide" },
+          { "id": "opt440", "text": "Webinar" }
+        ]
+      },
+      {
+        "id": "q428",
+        "question_text": "Do you face any technical issues frequently?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q429",
+        "question_text": "List the integrations you currently use.",
+        "type": "text",
+        "is_required": false,
+        "group": "A",
+        "options": []
+      },
+      {
+        "id": "q430",
+        "question_text": "Rate the responsiveness of our UI.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q431",
+        "question_text": "How easy is it to find help when needed?",
+        "type": "rating",
+        "is_required": false,
+        "scale": 5,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q432",
+        "question_text": "Select all the devices you have used to access our app.",
+        "type": "multiple_choice",
+        "is_required": true,
+        "group": "D",
+        "options": [
+          { "id": "opt441", "text": "Laptop" },
+          { "id": "opt442", "text": "Tablet" },
+          { "id": "opt443", "text": "Mobile" },
+          { "id": "opt444", "text": "Desktop" }
+        ]
+      },
+      {
+        "id": "q433",
+        "question_text": "Would you participate in a beta program?",
+        "type": "yes_no",
+        "is_required": false,
+        "group": "A",
+        "options": []
+      },
+      {
+        "id": "q434",
+        "question_text": "Which languages should we support?",
+        "type": "text",
+        "is_required": false,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q435",
+        "question_text": "Rate the ease of integrating our API.",
+        "type": "rating",
+        "is_required": false,
+        "scale": 10,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q436",
+        "question_text": "How likely are you to upgrade your plan?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q437",
+        "question_text": "Select all the marketing channels through which you heard about us.",
+        "type": "multiple_choice",
+        "is_required": false,
+        "group": "A",
+        "options": [
+          { "id": "opt445", "text": "Social Media" },
+          { "id": "opt446", "text": "Search Ads" },
+          { "id": "opt447", "text": "Email Campaign" },
+          { "id": "opt448", "text": "Friends/Colleagues" }
+        ]
+      },
+      {
+        "id": "q438",
+        "question_text": "Do you think we provide value for money?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q439",
+        "question_text": "What additional features would you like to see?",
+        "type": "text",
+        "is_required": false,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q440",
+        "question_text": "Rate the transparency of our pricing.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q441",
+        "question_text": "Which operating system do you primarily use?",
+        "type": "dropdown",
+        "is_required": true,
+        "group": "A",
+        "options": [
+          { "id": "opt449", "text": "Windows" },
+          { "id": "opt450", "text": "macOS" },
+          { "id": "opt451", "text": "Linux" },
+          { "id": "opt452", "text": "Other" }
+        ]
+      },
+      {
+        "id": "q442",
+        "question_text": "Select all that apply: preferred support methods.",
+        "type": "multiple_choice",
+        "is_required": true,
+        "group": "B",
+        "options": [
+          { "id": "opt453", "text": "Live Chat" },
+          { "id": "opt454", "text": "Email" },
+          { "id": "opt455", "text": "Phone" },
+          { "id": "opt456", "text": "Community Forum" }
+        ]
+      },
+      {
+        "id": "q443",
+        "question_text": "Do you feel our team listens to feedback?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q444",
+        "question_text": "How quickly do we resolve your issues?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "group": "D",
+        "options": []
+      },
+      {
+        "id": "q445",
+        "question_text": "Which event format would you like us to host?",
+        "type": "single_choice",
+        "is_required": false,
+        "group": "A",
+        "options": [
+          { "id": "opt457", "text": "Webinars" },
+          { "id": "opt458", "text": "Workshops" },
+          { "id": "opt459", "text": "Conferences" },
+          { "id": "opt460", "text": "Networking Meetups" }
+        ]
+      },
+      {
+        "id": "q446",
+        "question_text": "Rate the quality of our marketing emails.",
+        "type": "rating",
+        "is_required": false,
+        "scale": 5,
+        "group": "B",
+        "options": []
+      },
+      {
+        "id": "q447",
+        "question_text": "Do you feel the product meets your needs?",
+        "type": "yes_no",
+        "is_required": true,
+        "group": "C",
+        "options": []
+      },
+      {
+        "id": "q448",
+        "question_text": "Select your preferred time for product updates.",
+        "type": "dropdown",
+        "is_required": false,
+        "group": "D",
+        "options": [
+          { "id": "opt461", "text": "Morning" },
+          { "id": "opt462", "text": "Afternoon" },
+          { "id": "opt463", "text": "Evening" },
+          { "id": "opt464", "text": "No Preference" }
+        ]
+      },
+      {
+        "id": "q449",
+        "question_text": "How likely are you to try new features?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "group": "A",
+        "options": []
+      },
+      {
+        "id": "q450",
+        "question_text": "Please share any final comments or suggestions.",
+        "type": "text",
+        "is_required": false,
+        "group": "B",
+        "options": []
+      }
+    ]
+  }
+}

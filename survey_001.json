@@ -1,0 +1,235 @@
+{
+  "status": "success",
+  "data": {
+    "id": "survey_001",
+    "title": "Customer Engagement & Satisfaction Survey",
+    "description": "We value your feedback to help us enhance our services.",
+    "created_at": "2025-07-31T10:00:00Z",
+    "valid_until": "2025-08-20T23:59:59Z",
+    "estimated_time_minutes": 10,
+    "questions": [
+      {
+        "id": "q101",
+        "question_text": "How often do you use our product?",
+        "type": "dropdown",
+        "is_required": true,
+        "options": [
+          { "id": "opt101", "text": "Daily" },
+          { "id": "opt102", "text": "Weekly" },
+          { "id": "opt103", "text": "Monthly" },
+          { "id": "opt104", "text": "Rarely" }
+        ]
+      },
+      {
+        "id": "q102",
+        "question_text": "Do you feel our customer support is responsive?",
+        "type": "yes_no",
+        "is_required": true,
+        "options": []
+      },
+      {
+        "id": "q103",
+        "question_text": "Please share any suggestions to improve our product.",
+        "type": "text",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q104",
+        "question_text": "Rate the ease of navigation on our website.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "options": []
+      },
+      {
+        "id": "q105",
+        "question_text": "Which of these best describes your role?",
+        "type": "single_choice",
+        "is_required": true,
+        "options": [
+          { "id": "opt105", "text": "Student" },
+          { "id": "opt106", "text": "Professional" },
+          { "id": "opt107", "text": "Business Owner" },
+          { "id": "opt108", "text": "Other" }
+        ]
+      },
+      {
+        "id": "q106",
+        "question_text": "How satisfied are you with our mobile app?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "options": []
+      },
+      {
+        "id": "q107",
+        "question_text": "Which of these features do you use most?",
+        "type": "multiple_choice",
+        "is_required": false,
+        "options": [
+          { "id": "opt109", "text": "Search" },
+          { "id": "opt110", "text": "Notifications" },
+          { "id": "opt111", "text": "Reports" },
+          { "id": "opt112", "text": "Analytics" }
+        ]
+      },
+      {
+        "id": "q108",
+        "question_text": "Would you like to participate in beta testing?",
+        "type": "yes_no",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q109",
+        "question_text": "Select your preferred payment method.",
+        "type": "dropdown",
+        "is_required": true,
+        "options": [
+          { "id": "opt113", "text": "Credit Card" },
+          { "id": "opt114", "text": "PayPal" },
+          { "id": "opt115", "text": "Bank Transfer" },
+          { "id": "opt116", "text": "Cryptocurrency" }
+        ]
+      },
+      {
+        "id": "q110",
+        "question_text": "Please describe a positive experience you had with us.",
+        "type": "text",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q111",
+        "question_text": "Rate the quality of our product updates.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "options": []
+      },
+      {
+        "id": "q112",
+        "question_text": "Which customer support channel do you prefer?",
+        "type": "single_choice",
+        "is_required": true,
+        "options": [
+          { "id": "opt117", "text": "Email" },
+          { "id": "opt118", "text": "Live Chat" },
+          { "id": "opt119", "text": "Phone" },
+          { "id": "opt120", "text": "Community Forum" }
+        ]
+      },
+      {
+        "id": "q113",
+        "question_text": "Do you follow us on social media?",
+        "type": "yes_no",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q114",
+        "question_text": "What is your preferred method to receive updates?",
+        "type": "dropdown",
+        "is_required": true,
+        "options": [
+          { "id": "opt121", "text": "Email" },
+          { "id": "opt122", "text": "SMS" },
+          { "id": "opt123", "text": "Push Notification" }
+        ]
+      },
+      {
+        "id": "q115",
+        "question_text": "How easy is it to find information on our website?",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "options": []
+      },
+      {
+        "id": "q116",
+        "question_text": "Select all that apply: How do you use our app?",
+        "type": "multiple_choice",
+        "is_required": false,
+        "options": [
+          { "id": "opt124", "text": "Work" },
+          { "id": "opt125", "text": "School" },
+          { "id": "opt126", "text": "Personal" },
+          { "id": "opt127", "text": "Other" }
+        ]
+      },
+      {
+        "id": "q117",
+        "question_text": "Would you recommend our service to friends?",
+        "type": "yes_no",
+        "is_required": true,
+        "options": []
+      },
+      {
+        "id": "q118",
+        "question_text": "Choose your preferred app theme.",
+        "type": "single_choice",
+        "is_required": false,
+        "options": [
+          { "id": "opt128", "text": "Light" },
+          { "id": "opt129", "text": "Dark" },
+          { "id": "opt130", "text": "System Default" }
+        ]
+      },
+      {
+        "id": "q119",
+        "question_text": "Rate the reliability of our app.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 10,
+        "options": []
+      },
+      {
+        "id": "q120",
+        "question_text": "Which of these improvements matter most to you?",
+        "type": "multiple_choice",
+        "is_required": true,
+        "options": [
+          { "id": "opt131", "text": "Performance" },
+          { "id": "opt132", "text": "Security" },
+          { "id": "opt133", "text": "New Features" },
+          { "id": "opt134", "text": "Better Design" }
+        ]
+      },
+      {
+        "id": "q121",
+        "question_text": "Do you use our product daily?",
+        "type": "yes_no",
+        "is_required": true,
+        "options": []
+      },
+      {
+        "id": "q122",
+        "question_text": "What is your preferred device for using our app?",
+        "type": "dropdown",
+        "is_required": false,
+        "options": [
+          { "id": "opt135", "text": "Smartphone" },
+          { "id": "opt136", "text": "Tablet" },
+          { "id": "opt137", "text": "Laptop" },
+          { "id": "opt138", "text": "Desktop" }
+        ]
+      },
+      {
+        "id": "q123",
+        "question_text": "Please describe a feature you’d like us to add.",
+        "type": "text",
+        "is_required": false,
+        "options": []
+      },
+      {
+        "id": "q124",
+        "question_text": "Rate our onboarding process.",
+        "type": "rating",
+        "is_required": true,
+        "scale": 5,
+        "options": []
+      }
+    ]
+  }
+}

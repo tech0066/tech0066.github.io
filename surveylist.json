@@ -1,29 +1,182 @@
-{
-  "status": "success",
-  "data": [
-    {
-      "id": "survey_001",
-      "title": "Customer Satisfaction Survey",
-      "description": "Help us improve our service by answering a few questions.",
-      "created_at": "2025-07-25T10:30:00Z",
-      "valid_until": "2025-08-10T23:59:59Z",
-      "category": "Feedback",
-      "estimated_time_minutes": 5,
-      "number_of_questions": 8,
-      "is_completed": false,
-      "thumbnail_url": "https://example.com/images/survey_001.png"
-    },
-    {
-      "id": "survey_002",
-      "title": "Product Feedback - New Launch",
-      "description": "Share your thoughts on our new product.",
-      "created_at": "2025-07-20T08:00:00Z",
-      "valid_until": "2025-08-15T23:59:59Z",
-      "category": "Product Research",
-      "estimated_time_minutes": 3,
-      "number_of_questions": 5,
-      "is_completed": true,
-      "thumbnail_url": null
-    }
-  ]
-}
+[
+  {
+    "id": "survey_001",
+    "title": "Customer Satisfaction Survey",
+    "description": "Help us improve our service by answering a few questions.",
+    "created_at": "2025-07-25T10:30:00Z",
+    "category": "Feedback",
+    "estimated_time_minutes": 15,
+    "number_of_questions": 22,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_001.png",
+    "group": "A"
+  },
+  {
+    "id": "survey_002",
+    "title": "Product Feedback - New Launch",
+    "description": "Share your thoughts on our new product.",
+    "created_at": "2025-07-20T08:00:00Z",
+    "category": "Product Research",
+    "estimated_time_minutes": 12,
+    "number_of_questions": 28,
+    "is_completed": true,
+    "thumbnail_url": null,
+    "group": "B"
+  },
+  {
+    "id": "survey_003",
+    "title": "Website Usability Test",
+    "description": "Evaluate how easy it is to navigate our website.",
+    "created_at": "2025-07-18T14:45:00Z",
+    "category": "UX Research",
+    "estimated_time_minutes": 14,
+    "number_of_questions": 25,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_003.png",
+    "group": "C"
+  },
+  {
+    "id": "survey_004",
+    "title": "Mobile App Performance Review",
+    "description": "Tell us about your experience with our mobile app.",
+    "created_at": "2025-07-15T09:20:00Z",
+    "category": "App Feedback",
+    "estimated_time_minutes": 16,
+    "number_of_questions": 27,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_004.png",
+    "group": "D"
+  },
+  {
+    "id": "survey_005",
+    "title": "Service Quality Assessment",
+    "description": "Rate the quality of service you have received.",
+    "created_at": "2025-07-12T11:10:00Z",
+    "category": "Feedback",
+    "estimated_time_minutes": 18,
+    "number_of_questions": 29,
+    "is_completed": true,
+    "thumbnail_url": null,
+    "group": "A"
+  },
+  {
+    "id": "survey_006",
+    "title": "Employee Engagement Survey",
+    "description": "Help us understand how engaged you feel at work.",
+    "created_at": "2025-07-10T13:30:00Z",
+    "category": "HR Research",
+    "estimated_time_minutes": 15,
+    "number_of_questions": 23,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_006.png",
+    "group": "B"
+  },
+  {
+    "id": "survey_007",
+    "title": "Event Feedback Form",
+    "description": "Share your thoughts about our recent event.",
+    "created_at": "2025-07-08T15:00:00Z",
+    "category": "Event Review",
+    "estimated_time_minutes": 13,
+    "number_of_questions": 26,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_007.png",
+    "group": "C"
+  },
+  {
+    "id": "survey_008",
+    "title": "Marketing Campaign Evaluation",
+    "description": "Tell us how effective our latest marketing campaign was.",
+    "created_at": "2025-07-05T10:15:00Z",
+    "category": "Marketing Research",
+    "estimated_time_minutes": 17,
+    "number_of_questions": 24,
+    "is_completed": true,
+    "thumbnail_url": null,
+    "group": "D"
+  },
+  {
+    "id": "survey_009",
+    "title": "Customer Onboarding Feedback",
+    "description": "Let us know how smooth your onboarding experience was.",
+    "created_at": "2025-07-03T09:00:00Z",
+    "category": "Feedback",
+    "estimated_time_minutes": 12,
+    "number_of_questions": 21,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_009.png",
+    "group": "A"
+  },
+  {
+    "id": "survey_010",
+    "title": "Product Feature Requests",
+    "description": "Suggest new features you’d like to see in our product.",
+    "created_at": "2025-07-01T08:40:00Z",
+    "category": "Product Research",
+    "estimated_time_minutes": 18,
+    "number_of_questions": 30,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_010.png",
+    "group": "B"
+  },
+  {
+    "id": "survey_011",
+    "title": "Brand Awareness Survey",
+    "description": "Help us understand how well our brand is recognized.",
+    "created_at": "2025-06-29T12:00:00Z",
+    "category": "Market Research",
+    "estimated_time_minutes": 16,
+    "number_of_questions": 27,
+    "is_completed": true,
+    "thumbnail_url": null,
+    "group": "C"
+  },
+  {
+    "id": "survey_012",
+    "title": "Training Program Evaluation",
+    "description": "Share feedback on our employee training programs.",
+    "created_at": "2025-06-27T15:15:00Z",
+    "category": "HR Feedback",
+    "estimated_time_minutes": 15,
+    "number_of_questions": 25,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_012.png",
+    "group": "D"
+  },
+  {
+    "id": "survey_013",
+    "title": "Community Engagement Survey",
+    "description": "Help us assess how involved you feel in our community.",
+    "created_at": "2025-06-25T09:45:00Z",
+    "category": "Community Research",
+    "estimated_time_minutes": 14,
+    "number_of_questions": 28,
+    "is_completed": false,
+    "thumbnail_url": null,
+    "group": "A"
+  },
+  {
+    "id": "survey_014",
+    "title": "User Retention Analysis",
+    "description": "Tell us why you continue to use our services.",
+    "created_at": "2025-06-23T11:20:00Z",
+    "category": "User Research",
+    "estimated_time_minutes": 12,
+    "number_of_questions": 22,
+    "is_completed": true,
+    "thumbnail_url": "https://example.com/images/survey_014.png",
+    "group": "B"
+  },
+  {
+    "id": "survey_015",
+    "title": "Sustainability Practices Survey",
+    "description": "Share your views on our environmental initiatives.",
+    "created_at": "2025-06-20T14:30:00Z",
+    "category": "CSR Research",
+    "estimated_time_minutes": 19,
+    "number_of_questions": 29,
+    "is_completed": false,
+    "thumbnail_url": "https://example.com/images/survey_015.png",
+    "group": "C"
+  }
+]
