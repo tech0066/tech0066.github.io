@@ -1,279 +1,189 @@
 {
   "status": "success",
   "data": {
-    "id": "survey_010",
-    "title": "Comprehensive Lifestyle & Productivity Survey",
-    "description": "Help us understand your habits, goals, and preferences to improve future offerings.",
-    "created_at": "2025-10-22T10:00:00Z",
-    "valid_until": "2025-11-10T23:59:59Z",
-    "estimated_time_minutes": 12,
-    "survey_data": [
+    "id": "survey_002",
+    "title": "Work-Life Balance & Wellbeing Survey",
+    "description": "We’d love your input to understand how people maintain balance, focus, and happiness in their daily routines.",
+    "created_at": "2025-10-22T11:00:00Z",
+    "valid_until": "2025-11-20T23:59:59Z",
+    "estimated_time_minutes": 14,
+    "question_groups": [
       {
-        "category_name": "Morning Routine",
+        "category_name": "Daily Habits",
         "questions": [
           {
-            "id": "q001",
-            "type": "multiple_choice",
-            "question_text": "Which of the following do you usually do right after waking up?",
-            "is_required": true,
-            "options": [
-              {
-                "id": "opt001",
-                "text": "Meditate"
-              },
-              {
-                "id": "opt002",
-                "text": "Check phone"
-              },
-              {
-                "id": "opt003",
-                "text": "Exercise"
-              },
-              {
-                "id": "opt004",
-                "text": "Have coffee"
-              }
-            ]
-          },
-          {
-            "id": "q002",
-            "type": "rating",
-            "question_text": "How energized do you feel in the mornings?",
-            "is_required": false,
-            "scale": 5
-          },
-          {
-            "id": "q003",
+            "id": "q101",
             "type": "text",
-            "question_text": "Describe one thing that helps you start your day positively.",
-            "is_required": false
-          }
-        ]
-      },
-      {
-        "category_name": "Work & Focus",
-        "questions": [
-          {
-            "id": "q004",
-            "type": "dropdown",
-            "question_text": "How many hours do you work on average per day?",
-            "is_required": true,
-            "options": [
-              {
-                "id": "opt041",
-                "text": "Less than 4"
-              },
-              {
-                "id": "opt042",
-                "text": "4–6 hours"
-              },
-              {
-                "id": "opt043",
-                "text": "6–8 hours"
-              },
-              {
-                "id": "opt044",
-                "text": "More than 8"
-              }
-            ]
-          },
-          {
-            "id": "q005",
-            "type": "text",
-            "question_text": "What distractions most affect your focus while working?",
+            "question_text": "What is the very first thing you do after waking up?",
             "is_required": true
           },
           {
-            "id": "q006",
+            "id": "q102",
+            "type": "multiple_choice",
+            "question_text": "Which of these habits are part of your morning routine?",
+            "is_required": false,
+            "options": [
+              { "id": "opt1021", "text": "Stretching or Yoga" },
+              { "id": "opt1022", "text": "Journaling" },
+              { "id": "opt1023", "text": "Checking messages" },
+              { "id": "opt1024", "text": "Skipping breakfast" }
+            ]
+          },
+          {
+            "id": "q103",
             "type": "rating",
-            "question_text": "Rate your current productivity level this week.",
+            "question_text": "How consistent are you with your daily routine?",
             "is_required": false,
             "scale": 10
           }
         ]
       },
       {
-        "category_name": "Personal Growth",
+        "category_name": "Work Experience",
         "questions": [
           {
-            "id": "q007",
-            "type": "multiple_choice",
-            "question_text": "Which of these activities do you do for personal growth?",
+            "id": "q104",
+            "type": "dropdown",
+            "question_text": "How long have you been working in your current role?",
             "is_required": true,
             "options": [
-              {
-                "id": "opt071",
-                "text": "Reading"
-              },
-              {
-                "id": "opt072",
-                "text": "Meditation"
-              },
-              {
-                "id": "opt073",
-                "text": "Journaling"
-              },
-              {
-                "id": "opt074",
-                "text": "Therapy"
-              }
+              { "id": "opt1041", "text": "Less than a year" },
+              { "id": "opt1042", "text": "1–3 years" },
+              { "id": "opt1043", "text": "3–5 years" },
+              { "id": "opt1044", "text": "More than 5 years" }
             ]
           },
           {
-            "id": "q008",
+            "id": "q105",
             "type": "text",
-            "question_text": "What is one habit you want to improve this month?",
+            "question_text": "Describe a recent situation when you felt highly productive.",
             "is_required": true
           },
           {
-            "id": "q009",
+            "id": "q106",
             "type": "rating",
-            "question_text": "How satisfied are you with your personal growth in the last 6 months?",
-            "is_required": false,
+            "question_text": "How satisfied are you with your work-life balance?",
+            "is_required": true,
             "scale": 5
           }
         ]
       },
       {
-        "category_name": "Wellness & Health",
+        "category_name": "Mindfulness & Focus",
         "questions": [
           {
-            "id": "q010",
-            "type": "dropdown",
-            "question_text": "How often do you exercise per week?",
+            "id": "q107",
+            "type": "multiple_choice",
+            "question_text": "What helps you stay focused during work?",
             "is_required": true,
             "options": [
-              {
-                "id": "opt101",
-                "text": "Never"
-              },
-              {
-                "id": "opt102",
-                "text": "1–2 times"
-              },
-              {
-                "id": "opt103",
-                "text": "3–5 times"
-              },
-              {
-                "id": "opt104",
-                "text": "Daily"
-              }
+              { "id": "opt1071", "text": "Silence" },
+              { "id": "opt1072", "text": "Background music" },
+              { "id": "opt1073", "text": "Short breaks" },
+              { "id": "opt1074", "text": "Meditation" }
             ]
           },
           {
-            "id": "q011",
+            "id": "q108",
+            "type": "text",
+            "question_text": "How often do you practice mindfulness or meditation?",
+            "is_required": false
+          },
+          {
+            "id": "q109",
+            "type": "yes_no",
+            "question_text": "Do you find it easy to disconnect from work after office hours?",
+            "is_required": true
+          }
+        ]
+      },
+      {
+        "category_name": "Physical Health",
+        "questions": [
+          {
+            "id": "q110",
+            "type": "dropdown",
+            "question_text": "How many days a week do you exercise?",
+            "is_required": true,
+            "options": [
+              { "id": "opt1101", "text": "None" },
+              { "id": "opt1102", "text": "1–2 days" },
+              { "id": "opt1103", "text": "3–4 days" },
+              { "id": "opt1104", "text": "5 or more days" }
+            ]
+          },
+          {
+            "id": "q111",
+            "type": "text",
+            "question_text": "What kind of exercise do you enjoy the most?",
+            "is_required": false
+          },
+          {
+            "id": "q112",
+            "type": "rating",
+            "question_text": "How would you rate your current physical energy level?",
+            "is_required": true,
+            "scale": 10
+          }
+        ]
+      },
+      {
+        "category_name": "Relationships & Support",
+        "questions": [
+          {
+            "id": "q113",
             "type": "multiple_choice",
-            "question_text": "Which type of workouts do you enjoy most?",
+            "question_text": "Who do you usually turn to for emotional support?",
             "is_required": false,
             "options": [
-              {
-                "id": "opt111",
-                "text": "Yoga"
-              },
-              {
-                "id": "opt112",
-                "text": "Cardio"
-              },
-              {
-                "id": "opt113",
-                "text": "Strength Training"
-              },
-              {
-                "id": "opt114",
-                "text": "Dance"
-              }
+              { "id": "opt1131", "text": "Family" },
+              { "id": "opt1132", "text": "Friends" },
+              { "id": "opt1133", "text": "Partner" },
+              { "id": "opt1134", "text": "Therapist" }
             ]
           },
           {
-            "id": "q012",
+            "id": "q114",
+            "type": "rating",
+            "question_text": "How supported do you feel in your personal relationships?",
+            "is_required": true,
+            "scale": 5
+          },
+          {
+            "id": "q115",
             "type": "text",
-            "question_text": "Describe your ideal healthy day.",
+            "question_text": "What is one thing that helps you strengthen your relationships?",
             "is_required": false
           }
         ]
       },
       {
-        "category_name": "Technology & Lifestyle",
+        "category_name": "Digital Wellbeing",
         "questions": [
           {
-            "id": "q013",
+            "id": "q116",
             "type": "multiple_choice",
-            "question_text": "Which devices do you use daily?",
-            "is_required": true,
+            "question_text": "Which apps take up most of your screen time?",
+            "is_required": false,
             "options": [
-              {
-                "id": "opt131",
-                "text": "Smartphone"
-              },
-              {
-                "id": "opt132",
-                "text": "Laptop"
-              },
-              {
-                "id": "opt133",
-                "text": "Tablet"
-              },
-              {
-                "id": "opt134",
-                "text": "Smartwatch"
-              }
+              { "id": "opt1161", "text": "Instagram" },
+              { "id": "opt1162", "text": "YouTube" },
+              { "id": "opt1163", "text": "WhatsApp" },
+              { "id": "opt1164", "text": "Netflix" }
             ]
           },
           {
-            "id": "q014",
-            "type": "rating",
-            "question_text": "How often do you feel distracted by notifications?",
-            "is_required": false,
-            "scale": 5
+            "id": "q117",
+            "type": "yes_no",
+            "question_text": "Do you use any apps to limit your screen time?",
+            "is_required": false
           },
           {
-            "id": "q015",
-            "type": "text",
-            "question_text": "If you could remove one app from your life, which would it be and why?",
-            "is_required": true
-          }
-        ]
-      },
-      {
-        "category_name": "Financial Mindset",
-        "questions": [
-          {
-            "id": "q016",
-            "type": "dropdown",
-            "question_text": "What is your primary source of income?",
+            "id": "q118",
+            "type": "rating",
+            "question_text": "Rate how balanced your digital usage feels overall.",
             "is_required": true,
-            "options": [
-              {
-                "id": "opt161",
-                "text": "Full-time job"
-              },
-              {
-                "id": "opt162",
-                "text": "Freelancing"
-              },
-              {
-                "id": "opt163",
-                "text": "Business"
-              },
-              {
-                "id": "opt164",
-                "text": "Other"
-              }
-            ]
-          },
-          {
-            "id": "q017",
-            "type": "rating",
-            "question_text": "How confident do you feel about managing your finances?",
-            "is_required": false,
-            "scale": 5
-          },
-          {
-            "id": "q018",
-            "type": "text",
-            "question_text": "What financial goal are you currently working towards?",
-            "is_required": true
+            "scale": 10
           }
         ]
       }

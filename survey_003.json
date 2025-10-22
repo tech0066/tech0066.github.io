@@ -1,237 +1,174 @@
 {
-  "status": "success",
-  "data": {
-    "id": "survey_003",
-    "title": "User Experience & Feature Feedback Survey",
-    "description": "Help us improve by sharing your experience and preferences.",
-    "created_at": "2025-07-31T10:00:00Z",
-    "valid_until": "2025-08-20T23:59:59Z",
-    "estimated_time_minutes": 12,
-    "questions": [
-      {
-        "id": "q201",
-        "question_text": "How did you hear about us?",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
-          { "id": "opt301", "text": "Social Media" },
-          { "id": "opt302", "text": "Friend or Family" },
-          { "id": "opt303", "text": "Google Search" },
-          { "id": "opt304", "text": "Advertisement" },
-          { "id": "opt305", "text": "Other" }
-        ]
-      },
-      {
-        "id": "q202",
-        "question_text": "Please upload a photo of your workspace using our product (optional).",
-        "type": "image",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q203",
-        "question_text": "Do you think our product meets your needs?",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q204",
-        "question_text": "Which new features would you like to see?",
-        "type": "text",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q205",
-        "question_text": "Share your current location (optional).",
-        "type": "text",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q206",
-        "question_text": "How likely are you to recommend us to a friend?",
-        "type": "rating",
-        "is_required": true,
-        "scale": 10,
-        "options": []
-      },
-      {
-        "id": "q207",
-        "question_text": "Which of these improvements matter most to you?",
-        "type": "multiple_choice",
-        "is_required": true,
-        "options": [
-          { "id": "opt401", "text": "Faster customer support" },
-          { "id": "opt402", "text": "More intuitive UI" },
-          { "id": "opt403", "text": "Lower pricing" },
-          { "id": "opt404", "text": "Better mobile app" },
-          { "id": "opt405", "text": "More integrations" }
-        ]
-      },
-      {
-        "id": "q208",
-        "question_text": "What best describes your primary use case?",
-        "type": "single_choice",
-        "is_required": true,
-        "options": [
-          { "id": "opt501", "text": "Personal productivity" },
-          { "id": "opt502", "text": "Team collaboration" },
-          { "id": "opt503", "text": "Client project management" },
-          { "id": "opt504", "text": "Educational purposes" }
-        ]
-      },
-      {
-        "id": "q209",
-        "question_text": "How satisfied are you with the current pricing?",
-        "type": "rating",
-        "is_required": true,
-        "scale": 5,
-        "options": []
-      },
-      {
-        "id": "q210",
-        "question_text": "Which mobile features do you use most often?",
-        "type": "multiple_choice",
-        "is_required": false,
-        "options": [
-          { "id": "opt601", "text": "Offline mode" },
-          { "id": "opt602", "text": "Push notifications" },
-          { "id": "opt603", "text": "Chat support" },
-          { "id": "opt604", "text": "File sharing" }
-        ]
-      },
-      {
-        "id": "q211",
-        "question_text": "Would you attend a training session on our product?",
-        "type": "yes_no",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q212",
-        "question_text": "Select your preferred customer support channel.",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
-          { "id": "opt701", "text": "Email" },
-          { "id": "opt702", "text": "Live chat" },
-          { "id": "opt703", "text": "Phone" },
-          { "id": "opt704", "text": "Community forum" }
-        ]
-      },
-      {
-        "id": "q213",
-        "question_text": "What is one thing we could improve immediately?",
-        "type": "text",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q214",
-        "question_text": "How visually appealing is our product design?",
-        "type": "rating",
-        "is_required": true,
-        "scale": 5,
-        "options": []
-      },
-      {
-        "id": "q215",
-        "question_text": "Which of these integrations do you use?",
-        "type": "multiple_choice",
-        "is_required": false,
-        "options": [
-          { "id": "opt801", "text": "Google Drive" },
-          { "id": "opt802", "text": "Slack" },
-          { "id": "opt803", "text": "Dropbox" },
-          { "id": "opt804", "text": "Microsoft Teams" }
-        ]
-      },
-      {
-        "id": "q216",
-        "question_text": "Would you like more automation features?",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q217",
-        "question_text": "Choose your preferred theme.",
-        "type": "single_choice",
-        "is_required": false,
-        "options": [
-          { "id": "opt901", "text": "Light" },
-          { "id": "opt902", "text": "Dark" },
-          { "id": "opt903", "text": "System default" }
-        ]
-      },
-      {
-        "id": "q218",
-        "question_text": "Rate the speed of the mobile app.",
-        "type": "rating",
-        "is_required": true,
-        "scale": 10,
-        "options": []
-      },
-      {
-        "id": "q219",
-        "question_text": "Which payment methods would you like us to support?",
-        "type": "multiple_choice",
-        "is_required": false,
-        "options": [
-          { "id": "opt1001", "text": "Credit Card" },
-          { "id": "opt1002", "text": "PayPal" },
-          { "id": "opt1003", "text": "Bank Transfer" },
-          { "id": "opt1004", "text": "Cryptocurrency" }
-        ]
-      },
-      {
-        "id": "q220",
-        "question_text": "Would you recommend our app to colleagues?",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q221",
-        "question_text": "What is your preferred language?",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
-          { "id": "opt1101", "text": "English" },
-          { "id": "opt1102", "text": "Spanish" },
-          { "id": "opt1103", "text": "French" },
-          { "id": "opt1104", "text": "German" }
-        ]
-      },
-      {
-        "id": "q222",
-        "question_text": "Please describe your overall experience with our app.",
-        "type": "text",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q223",
-        "question_text": "Rate our onboarding process.",
-        "type": "rating",
-        "is_required": true,
-        "scale": 5,
-        "options": []
-      },
-      {
-        "id": "q224",
-        "question_text": "Select your most used feature.",
-        "type": "single_choice",
-        "is_required": true,
-        "options": [
-          { "id": "opt1201", "text": "Dashboard" },
-          { "id": "opt1202", "text": "Reports" },
-          { "id": "opt1203", "text": "Notifications" },
-          { "id": "opt1204", "text": "Settings" }
-        ]
-      }
-    ]
-  }
+  "status": "Success",
+  "data": [
+    {
+      "category_name": "Lifestyle",
+      "surveys": [
+        {
+          "id": "survey_003",
+          "title": "Daily Routine and Wellness",
+          "description": "Share how you balance productivity and relaxation in your daily life.",
+          "created_at": "2025-08-05T09:00:00Z",
+          "category": "Health & Habits",
+          "estimated_time_minutes": 15,
+          "number_of_questions": 22,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_111.png",
+          "group": "A"
+        },
+        {
+          "id": "survey_112",
+          "title": "Digital Detox Challenge",
+          "description": "Tell us about your experience disconnecting from screens.",
+          "created_at": "2025-08-03T10:45:00Z",
+          "category": "Self Care",
+          "estimated_time_minutes": 10,
+          "number_of_questions": 19,
+          "is_completed": true,
+          "thumbnail_url": null,
+          "group": "B"
+        },
+        {
+          "id": "survey_113",
+          "title": "Morning Energy Survey",
+          "description": "Help us study how morning habits affect productivity.",
+          "created_at": "2025-08-01T13:20:00Z",
+          "category": "Wellness",
+          "estimated_time_minutes": 12,
+          "number_of_questions": 18,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_113.png",
+          "group": "C"
+        }
+      ]
+    },
+    {
+      "category_name": "Technology",
+      "surveys": [
+        {
+          "id": "survey_114",
+          "title": "AI in Daily Life",
+          "description": "Share your opinion on how AI tools are changing personal productivity.",
+          "created_at": "2025-08-04T16:10:00Z",
+          "category": "Tech Trends",
+          "estimated_time_minutes": 14,
+          "number_of_questions": 21,
+          "is_completed": true,
+          "thumbnail_url": "https://example.com/images/survey_114.png",
+          "group": "D"
+        },
+        {
+          "id": "survey_115",
+          "title": "Smartphone Usage Habits",
+          "description": "We’d love to know how you use your smartphone daily.",
+          "created_at": "2025-08-02T11:00:00Z",
+          "category": "Digital Behavior",
+          "estimated_time_minutes": 13,
+          "number_of_questions": 24,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_115.png",
+          "group": "A"
+        }
+      ]
+    },
+    {
+      "category_name": "Travel",
+      "surveys": [
+        {
+          "id": "survey_116",
+          "title": "Dream Destination Poll",
+          "description": "Tell us where you’d love to travel next and why.",
+          "created_at": "2025-08-06T09:50:00Z",
+          "category": "Travel Preferences",
+          "estimated_time_minutes": 11,
+          "number_of_questions": 17,
+          "is_completed": false,
+          "thumbnail_url": null,
+          "group": "B"
+        },
+        {
+          "id": "survey_117",
+          "title": "Hotel Experience Survey",
+          "description": "Help us understand what makes your stay memorable.",
+          "created_at": "2025-08-03T17:30:00Z",
+          "category": "Hospitality Feedback",
+          "estimated_time_minutes": 16,
+          "number_of_questions": 26,
+          "is_completed": true,
+          "thumbnail_url": "https://example.com/images/survey_117.png",
+          "group": "C"
+        },
+        {
+          "id": "survey_118",
+          "title": "Sustainable Travel Awareness",
+          "description": "We’d like to know your thoughts on eco-friendly travel.",
+          "created_at": "2025-08-02T12:15:00Z",
+          "category": "Sustainability",
+          "estimated_time_minutes": 13,
+          "number_of_questions": 20,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_118.png",
+          "group": "D"
+        }
+      ]
+    },
+    {
+      "category_name": "Education",
+      "surveys": [
+        {
+          "id": "survey_119",
+          "title": "Online Learning Preferences",
+          "description": "Help us shape the future of e-learning experiences.",
+          "created_at": "2025-08-01T08:40:00Z",
+          "category": "E-Learning",
+          "estimated_time_minutes": 18,
+          "number_of_questions": 29,
+          "is_completed": false,
+          "thumbnail_url": null,
+          "group": "A"
+        },
+        {
+          "id": "survey_120",
+          "title": "Study Habit Tracker",
+          "description": "Share how you organize your study time effectively.",
+          "created_at": "2025-08-05T15:00:00Z",
+          "category": "Student Insights",
+          "estimated_time_minutes": 10,
+          "number_of_questions": 16,
+          "is_completed": true,
+          "thumbnail_url": "https://example.com/images/survey_120.png",
+          "group": "B"
+        }
+      ]
+    },
+    {
+      "category_name": "Food & Nutrition",
+      "surveys": [
+        {
+          "id": "survey_121",
+          "title": "Healthy Eating Challenge",
+          "description": "Let us know how often you include healthy meals in your day.",
+          "created_at": "2025-08-04T07:45:00Z",
+          "category": "Nutrition",
+          "estimated_time_minutes": 12,
+          "number_of_questions": 18,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_121.png",
+          "group": "C"
+        },
+        {
+          "id": "survey_122",
+          "title": "Favorite Cuisine Poll",
+          "description": "Vote for your favorite cuisine and share your go-to dish.",
+          "created_at": "2025-08-06T09:30:00Z",
+          "category": "Food Culture",
+          "estimated_time_minutes": 9,
+          "number_of_questions": 15,
+          "is_completed": true,
+          "thumbnail_url": null,
+          "group": "D"
+        }
+      ]
+    }
+  ]
 }
