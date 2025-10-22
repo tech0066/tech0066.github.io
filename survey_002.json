@@ -1,681 +1,281 @@
 {
   "status": "success",
   "data": {
-    "id": "survey_004",
-    "title": "Comprehensive User Insights Survey",
-    "description": "Help us understand your preferences and experiences with detailed feedback.",
-    "created_at": "2025-07-31T10:00:00Z",
-    "valid_until": "2025-08-20T23:59:59Z",
-    "estimated_time_minutes": 15,
-    "questions": [
+    "id": "survey_010",
+    "title": "Comprehensive Lifestyle & Productivity Survey",
+    "description": "Help us understand your habits, goals, and preferences to improve future offerings.",
+    "created_at": "2025-10-22T10:00:00Z",
+    "valid_until": "2025-11-10T23:59:59Z",
+    "estimated_time_minutes": 12,
+    "survey_data": [
       {
-        "id": "q001",
-        "question_text": "Which of the following tools do you use regularly? (Q1)",
-        "type": "multiple_choice",
-        "is_required": true,
-        "options": [
+        "category_name": "Morning Routine",
+        "questions": [
           {
-            "id": "opt11",
-            "text": "Calendar"
+            "id": "q001",
+            "type": "multiple_choice",
+            "question_text": "Which of the following do you usually do right after waking up?",
+            "is_required": true,
+            "options": [
+              {
+                "id": "opt001",
+                "text": "Meditate"
+              },
+              {
+                "id": "opt002",
+                "text": "Check phone"
+              },
+              {
+                "id": "opt003",
+                "text": "Exercise"
+              },
+              {
+                "id": "opt004",
+                "text": "Have coffee"
+              }
+            ]
           },
           {
-            "id": "opt12",
-            "text": "Task Manager"
+            "id": "q002",
+            "type": "rating",
+            "question_text": "How energized do you feel in the mornings?",
+            "is_required": false,
+            "scale": 5
           },
           {
-            "id": "opt13",
-            "text": "Note Taking"
-          },
-          {
-            "id": "opt14",
-            "text": "File Storage"
+            "id": "q003",
+            "type": "text",
+            "question_text": "Describe one thing that helps you start your day positively.",
+            "is_required": false
           }
         ]
       },
       {
-        "id": "q002",
-        "question_text": "Please describe your experience using our product. (Q2)",
-        "type": "text",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q003",
-        "question_text": "How would you rate the ease of use of our app? (Q3)",
-        "type": "rating",
-        "is_required": false,
-        "options": [],
-        "scale": 5
-      },
-      {
-        "id": "q004",
-        "question_text": "Select your current job role. (Q4)",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
+        "category_name": "Work & Focus",
+        "questions": [
           {
-            "id": "opt41",
-            "text": "Developer"
+            "id": "q004",
+            "type": "dropdown",
+            "question_text": "How many hours do you work on average per day?",
+            "is_required": true,
+            "options": [
+              {
+                "id": "opt041",
+                "text": "Less than 4"
+              },
+              {
+                "id": "opt042",
+                "text": "4–6 hours"
+              },
+              {
+                "id": "opt043",
+                "text": "6–8 hours"
+              },
+              {
+                "id": "opt044",
+                "text": "More than 8"
+              }
+            ]
           },
           {
-            "id": "opt42",
-            "text": "Designer"
+            "id": "q005",
+            "type": "text",
+            "question_text": "What distractions most affect your focus while working?",
+            "is_required": true
           },
           {
-            "id": "opt43",
-            "text": "Manager"
-          },
-          {
-            "id": "opt44",
-            "text": "Student"
-          },
-          {
-            "id": "opt45",
-            "text": "Other"
+            "id": "q006",
+            "type": "rating",
+            "question_text": "Rate your current productivity level this week.",
+            "is_required": false,
+            "scale": 10
           }
         ]
       },
       {
-        "id": "q005",
-        "question_text": "When did you first start using our service? (Q5)",
-        "type": "date",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q006",
-        "question_text": "Upload a screenshot of your favorite feature. (Q6)",
-        "type": "image",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q007",
-        "question_text": "Share your location (optional). (Q7)",
-        "type": "location",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q008",
-        "question_text": "Would you recommend us to others? (Q8)",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q009",
-        "question_text": "What is your preferred mode of communication? (Q9)",
-        "type": "single_choice",
-        "is_required": false,
-        "options": [
+        "category_name": "Personal Growth",
+        "questions": [
           {
-            "id": "opt91",
-            "text": "Email"
+            "id": "q007",
+            "type": "multiple_choice",
+            "question_text": "Which of these activities do you do for personal growth?",
+            "is_required": true,
+            "options": [
+              {
+                "id": "opt071",
+                "text": "Reading"
+              },
+              {
+                "id": "opt072",
+                "text": "Meditation"
+              },
+              {
+                "id": "opt073",
+                "text": "Journaling"
+              },
+              {
+                "id": "opt074",
+                "text": "Therapy"
+              }
+            ]
           },
           {
-            "id": "opt92",
-            "text": "Phone"
+            "id": "q008",
+            "type": "text",
+            "question_text": "What is one habit you want to improve this month?",
+            "is_required": true
           },
           {
-            "id": "opt93",
-            "text": "Text Message"
-          },
-          {
-            "id": "opt94",
-            "text": "In-app Chat"
+            "id": "q009",
+            "type": "rating",
+            "question_text": "How satisfied are you with your personal growth in the last 6 months?",
+            "is_required": false,
+            "scale": 5
           }
         ]
       },
       {
-        "id": "q010",
-        "question_text": "Which of the following tools do you use regularly? (Q10)",
-        "type": "multiple_choice",
-        "is_required": true,
-        "options": [
+        "category_name": "Wellness & Health",
+        "questions": [
           {
-            "id": "opt101",
-            "text": "Calendar"
+            "id": "q010",
+            "type": "dropdown",
+            "question_text": "How often do you exercise per week?",
+            "is_required": true,
+            "options": [
+              {
+                "id": "opt101",
+                "text": "Never"
+              },
+              {
+                "id": "opt102",
+                "text": "1–2 times"
+              },
+              {
+                "id": "opt103",
+                "text": "3–5 times"
+              },
+              {
+                "id": "opt104",
+                "text": "Daily"
+              }
+            ]
           },
           {
-            "id": "opt102",
-            "text": "Task Manager"
+            "id": "q011",
+            "type": "multiple_choice",
+            "question_text": "Which type of workouts do you enjoy most?",
+            "is_required": false,
+            "options": [
+              {
+                "id": "opt111",
+                "text": "Yoga"
+              },
+              {
+                "id": "opt112",
+                "text": "Cardio"
+              },
+              {
+                "id": "opt113",
+                "text": "Strength Training"
+              },
+              {
+                "id": "opt114",
+                "text": "Dance"
+              }
+            ]
           },
           {
-            "id": "opt103",
-            "text": "Note Taking"
-          },
-          {
-            "id": "opt104",
-            "text": "File Storage"
+            "id": "q012",
+            "type": "text",
+            "question_text": "Describe your ideal healthy day.",
+            "is_required": false
           }
         ]
       },
       {
-        "id": "q011",
-        "question_text": "Please describe your experience using our product. (Q11)",
-        "type": "text",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q012",
-        "question_text": "How would you rate the ease of use of our app? (Q12)",
-        "type": "rating",
-        "is_required": false,
-        "options": [],
-        "scale": 5
-      },
-      {
-        "id": "q013",
-        "question_text": "Select your current job role. (Q13)",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
+        "category_name": "Technology & Lifestyle",
+        "questions": [
           {
-            "id": "opt131",
-            "text": "Developer"
+            "id": "q013",
+            "type": "multiple_choice",
+            "question_text": "Which devices do you use daily?",
+            "is_required": true,
+            "options": [
+              {
+                "id": "opt131",
+                "text": "Smartphone"
+              },
+              {
+                "id": "opt132",
+                "text": "Laptop"
+              },
+              {
+                "id": "opt133",
+                "text": "Tablet"
+              },
+              {
+                "id": "opt134",
+                "text": "Smartwatch"
+              }
+            ]
           },
           {
-            "id": "opt132",
-            "text": "Designer"
+            "id": "q014",
+            "type": "rating",
+            "question_text": "How often do you feel distracted by notifications?",
+            "is_required": false,
+            "scale": 5
           },
           {
-            "id": "opt133",
-            "text": "Manager"
-          },
-          {
-            "id": "opt134",
-            "text": "Student"
-          },
-          {
-            "id": "opt135",
-            "text": "Other"
+            "id": "q015",
+            "type": "text",
+            "question_text": "If you could remove one app from your life, which would it be and why?",
+            "is_required": true
           }
         ]
       },
       {
-        "id": "q014",
-        "question_text": "When did you first start using our service? (Q14)",
-        "type": "date",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q015",
-        "question_text": "Upload a screenshot of your favorite feature. (Q15)",
-        "type": "image",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q016",
-        "question_text": "Share your location (optional). (Q16)",
-        "type": "location",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q017",
-        "question_text": "Would you recommend us to others? (Q17)",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q018",
-        "question_text": "What is your preferred mode of communication? (Q18)",
-        "type": "single_choice",
-        "is_required": false,
-        "options": [
+        "category_name": "Financial Mindset",
+        "questions": [
           {
-            "id": "opt181",
-            "text": "Email"
+            "id": "q016",
+            "type": "dropdown",
+            "question_text": "What is your primary source of income?",
+            "is_required": true,
+            "options": [
+              {
+                "id": "opt161",
+                "text": "Full-time job"
+              },
+              {
+                "id": "opt162",
+                "text": "Freelancing"
+              },
+              {
+                "id": "opt163",
+                "text": "Business"
+              },
+              {
+                "id": "opt164",
+                "text": "Other"
+              }
+            ]
           },
           {
-            "id": "opt182",
-            "text": "Phone"
+            "id": "q017",
+            "type": "rating",
+            "question_text": "How confident do you feel about managing your finances?",
+            "is_required": false,
+            "scale": 5
           },
           {
-            "id": "opt183",
-            "text": "Text Message"
-          },
-          {
-            "id": "opt184",
-            "text": "In-app Chat"
+            "id": "q018",
+            "type": "text",
+            "question_text": "What financial goal are you currently working towards?",
+            "is_required": true
           }
         ]
-      },
-      {
-        "id": "q019",
-        "question_text": "Which of the following tools do you use regularly? (Q19)",
-        "type": "multiple_choice",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt191",
-            "text": "Calendar"
-          },
-          {
-            "id": "opt192",
-            "text": "Task Manager"
-          },
-          {
-            "id": "opt193",
-            "text": "Note Taking"
-          },
-          {
-            "id": "opt194",
-            "text": "File Storage"
-          }
-        ]
-      },
-      {
-        "id": "q020",
-        "question_text": "Please describe your experience using our product. (Q20)",
-        "type": "text",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q021",
-        "question_text": "How would you rate the ease of use of our app? (Q21)",
-        "type": "rating",
-        "is_required": false,
-        "options": [],
-        "scale": 5
-      },
-      {
-        "id": "q022",
-        "question_text": "Select your current job role. (Q22)",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt221",
-            "text": "Developer"
-          },
-          {
-            "id": "opt222",
-            "text": "Designer"
-          },
-          {
-            "id": "opt223",
-            "text": "Manager"
-          },
-          {
-            "id": "opt224",
-            "text": "Student"
-          },
-          {
-            "id": "opt225",
-            "text": "Other"
-          }
-        ]
-      },
-      {
-        "id": "q023",
-        "question_text": "When did you first start using our service? (Q23)",
-        "type": "date",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q024",
-        "question_text": "Upload a screenshot of your favorite feature. (Q24)",
-        "type": "image",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q025",
-        "question_text": "Share your location (optional). (Q25)",
-        "type": "location",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q026",
-        "question_text": "Would you recommend us to others? (Q26)",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q027",
-        "question_text": "What is your preferred mode of communication? (Q27)",
-        "type": "single_choice",
-        "is_required": false,
-        "options": [
-          {
-            "id": "opt271",
-            "text": "Email"
-          },
-          {
-            "id": "opt272",
-            "text": "Phone"
-          },
-          {
-            "id": "opt273",
-            "text": "Text Message"
-          },
-          {
-            "id": "opt274",
-            "text": "In-app Chat"
-          }
-        ]
-      },
-      {
-        "id": "q028",
-        "question_text": "Which of the following tools do you use regularly? (Q28)",
-        "type": "multiple_choice",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt281",
-            "text": "Calendar"
-          },
-          {
-            "id": "opt282",
-            "text": "Task Manager"
-          },
-          {
-            "id": "opt283",
-            "text": "Note Taking"
-          },
-          {
-            "id": "opt284",
-            "text": "File Storage"
-          }
-        ]
-      },
-      {
-        "id": "q029",
-        "question_text": "Please describe your experience using our product. (Q29)",
-        "type": "text",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q030",
-        "question_text": "How would you rate the ease of use of our app? (Q30)",
-        "type": "rating",
-        "is_required": false,
-        "options": [],
-        "scale": 5
-      },
-      {
-        "id": "q031",
-        "question_text": "Select your current job role. (Q31)",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt311",
-            "text": "Developer"
-          },
-          {
-            "id": "opt312",
-            "text": "Designer"
-          },
-          {
-            "id": "opt313",
-            "text": "Manager"
-          },
-          {
-            "id": "opt314",
-            "text": "Student"
-          },
-          {
-            "id": "opt315",
-            "text": "Other"
-          }
-        ]
-      },
-      {
-        "id": "q032",
-        "question_text": "When did you first start using our service? (Q32)",
-        "type": "date",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q033",
-        "question_text": "Upload a screenshot of your favorite feature. (Q33)",
-        "type": "image",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q034",
-        "question_text": "Share your location (optional). (Q34)",
-        "type": "location",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q035",
-        "question_text": "Would you recommend us to others? (Q35)",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q036",
-        "question_text": "What is your preferred mode of communication? (Q36)",
-        "type": "single_choice",
-        "is_required": false,
-        "options": [
-          {
-            "id": "opt361",
-            "text": "Email"
-          },
-          {
-            "id": "opt362",
-            "text": "Phone"
-          },
-          {
-            "id": "opt363",
-            "text": "Text Message"
-          },
-          {
-            "id": "opt364",
-            "text": "In-app Chat"
-          }
-        ]
-      },
-      {
-        "id": "q037",
-        "question_text": "Which of the following tools do you use regularly? (Q37)",
-        "type": "multiple_choice",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt371",
-            "text": "Calendar"
-          },
-          {
-            "id": "opt372",
-            "text": "Task Manager"
-          },
-          {
-            "id": "opt373",
-            "text": "Note Taking"
-          },
-          {
-            "id": "opt374",
-            "text": "File Storage"
-          }
-        ]
-      },
-      {
-        "id": "q038",
-        "question_text": "Please describe your experience using our product. (Q38)",
-        "type": "text",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q039",
-        "question_text": "How would you rate the ease of use of our app? (Q39)",
-        "type": "rating",
-        "is_required": false,
-        "options": [],
-        "scale": 5
-      },
-      {
-        "id": "q040",
-        "question_text": "Select your current job role. (Q40)",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt401",
-            "text": "Developer"
-          },
-          {
-            "id": "opt402",
-            "text": "Designer"
-          },
-          {
-            "id": "opt403",
-            "text": "Manager"
-          },
-          {
-            "id": "opt404",
-            "text": "Student"
-          },
-          {
-            "id": "opt405",
-            "text": "Other"
-          }
-        ]
-      },
-      {
-        "id": "q041",
-        "question_text": "When did you first start using our service? (Q41)",
-        "type": "date",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q042",
-        "question_text": "Upload a screenshot of your favorite feature. (Q42)",
-        "type": "image",
-        "is_required": false,
-        "options": []
-      },
-      {
-        "id": "q043",
-        "question_text": "Share your location (optional). (Q43)",
-        "type": "location",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q044",
-        "question_text": "Would you recommend us to others? (Q44)",
-        "type": "yes_no",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q045",
-        "question_text": "What is your preferred mode of communication? (Q45)",
-        "type": "single_choice",
-        "is_required": false,
-        "options": [
-          {
-            "id": "opt451",
-            "text": "Email"
-          },
-          {
-            "id": "opt452",
-            "text": "Phone"
-          },
-          {
-            "id": "opt453",
-            "text": "Text Message"
-          },
-          {
-            "id": "opt454",
-            "text": "In-app Chat"
-          }
-        ]
-      },
-      {
-        "id": "q046",
-        "question_text": "Which of the following tools do you use regularly? (Q46)",
-        "type": "multiple_choice",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt461",
-            "text": "Calendar"
-          },
-          {
-            "id": "opt462",
-            "text": "Task Manager"
-          },
-          {
-            "id": "opt463",
-            "text": "Note Taking"
-          },
-          {
-            "id": "opt464",
-            "text": "File Storage"
-          }
-        ]
-      },
-      {
-        "id": "q047",
-        "question_text": "Please describe your experience using our product. (Q47)",
-        "type": "text",
-        "is_required": true,
-        "options": []
-      },
-      {
-        "id": "q048",
-        "question_text": "How would you rate the ease of use of our app? (Q48)",
-        "type": "rating",
-        "is_required": false,
-        "options": [],
-        "scale": 5
-      },
-      {
-        "id": "q049",
-        "question_text": "Select your current job role. (Q49)",
-        "type": "dropdown",
-        "is_required": true,
-        "options": [
-          {
-            "id": "opt491",
-            "text": "Developer"
-          },
-          {
-            "id": "opt492",
-            "text": "Designer"
-          },
-          {
-            "id": "opt493",
-            "text": "Manager"
-          },
-          {
-            "id": "opt494",
-            "text": "Student"
-          },
-          {
-            "id": "opt495",
-            "text": "Other"
-          }
-        ]
-      },
-      {
-        "id": "q050",
-        "question_text": "When did you first start using our service? (Q50)",
-        "type": "date",
-        "is_required": true,
-        "options": []
       }
     ]
   }
