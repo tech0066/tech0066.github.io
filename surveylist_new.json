@@ -1,0 +1,222 @@
+{
+  "status": "Success",
+  "data": [
+    {
+      "category_name": "Family",
+      "surveys": [
+        {
+          "id": "survey_001",
+          "title": "Customer Satisfaction Survey",
+          "description": "Help us improve our service by answering a few questions.",
+          "created_at": "2025-07-25T10:30:00Z",
+          "category": "Feedback",
+          "estimated_time_minutes": 15,
+          "number_of_questions": 22,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_001.png",
+          "group": "A"
+        },
+        {
+          "id": "survey_002",
+          "title": "Product Feedback - New Launch",
+          "description": "Share your thoughts on our new product.",
+          "created_at": "2025-07-20T08:00:00Z",
+          "category": "Product Research",
+          "estimated_time_minutes": 12,
+          "number_of_questions": 28,
+          "is_completed": true,
+          "thumbnail_url": null,
+          "group": "B"
+        },
+        {
+          "id": "survey_003",
+          "title": "Website Usability Test",
+          "description": "Evaluate how easy it is to navigate our website.",
+          "created_at": "2025-07-18T14:45:00Z",
+          "category": "UX Research",
+          "estimated_time_minutes": 14,
+          "number_of_questions": 25,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_003.png",
+          "group": "C"
+        },
+        {
+          "id": "survey_004",
+          "title": "Mobile App Performance Review",
+          "description": "Tell us about your experience with our mobile app.",
+          "created_at": "2025-07-15T09:20:00Z",
+          "category": "App Feedback",
+          "estimated_time_minutes": 16,
+          "number_of_questions": 27,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_004.png",
+          "group": "D"
+        }
+      ]
+    },
+    {
+      "category_name": "Health",
+      "surveys": [
+        {
+          "id": "survey_005",
+          "title": "Daily Wellness Habits",
+          "description": "Share your daily health and fitness routines.",
+          "created_at": "2025-07-10T11:00:00Z",
+          "category": "Health Tracking",
+          "estimated_time_minutes": 10,
+          "number_of_questions": 18,
+          "is_completed": true,
+          "thumbnail_url": "https://example.com/images/survey_005.png",
+          "group": "A"
+        },
+        {
+          "id": "survey_006",
+          "title": "Mental Health Awareness Survey",
+          "description": "Help us understand people's perception of mental health.",
+          "created_at": "2025-06-29T07:30:00Z",
+          "category": "Research",
+          "estimated_time_minutes": 20,
+          "number_of_questions": 30,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_006.png",
+          "group": "B"
+        },
+        {
+          "id": "survey_007",
+          "title": "Nutrition and Lifestyle Choices",
+          "description": "How do your eating habits affect your energy levels?",
+          "created_at": "2025-07-05T13:15:00Z",
+          "category": "Nutrition",
+          "estimated_time_minutes": 12,
+          "number_of_questions": 20,
+          "is_completed": false,
+          "thumbnail_url": null,
+          "group": "C"
+        }
+      ]
+    },
+    {
+      "category_name": "Work",
+      "surveys": [
+        {
+          "id": "survey_008",
+          "title": "Employee Engagement Survey",
+          "description": "Measure satisfaction and engagement levels across teams.",
+          "created_at": "2025-07-01T10:00:00Z",
+          "category": "HR",
+          "estimated_time_minutes": 15,
+          "number_of_questions": 25,
+          "is_completed": true,
+          "thumbnail_url": "https://example.com/images/survey_008.png",
+          "group": "A"
+        },
+        {
+          "id": "survey_009",
+          "title": "Remote Work Productivity",
+          "description": "Tell us how remote work impacts your focus and output.",
+          "created_at": "2025-06-15T09:45:00Z",
+          "category": "Productivity",
+          "estimated_time_minutes": 18,
+          "number_of_questions": 22,
+          "is_completed": false,
+          "thumbnail_url": null,
+          "group": "B"
+        },
+        {
+          "id": "survey_010",
+          "title": "Office Culture Evaluation",
+          "description": "We’d love your input on how we can improve the workplace atmosphere.",
+          "created_at": "2025-07-12T15:20:00Z",
+          "category": "Feedback",
+          "estimated_time_minutes": 14,
+          "number_of_questions": 19,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_010.png",
+          "group": "C"
+        }
+      ]
+    },
+    {
+      "category_name": "Education",
+      "surveys": [
+        {
+          "id": "survey_011",
+          "title": "Online Learning Experience",
+          "description": "Tell us about your experience with e-learning platforms.",
+          "created_at": "2025-06-20T11:50:00Z",
+          "category": "E-Learning",
+          "estimated_time_minutes": 13,
+          "number_of_questions": 21,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_011.png",
+          "group": "A"
+        },
+        {
+          "id": "survey_012",
+          "title": "Student Motivation Study",
+          "description": "Help us analyze what motivates students to learn effectively.",
+          "created_at": "2025-07-02T09:10:00Z",
+          "category": "Academic Research",
+          "estimated_time_minutes": 17,
+          "number_of_questions": 26,
+          "is_completed": true,
+          "thumbnail_url": null,
+          "group": "B"
+        },
+        {
+          "id": "survey_013",
+          "title": "Teacher Satisfaction Index",
+          "description": "Teachers’ feedback to improve the quality of education.",
+          "created_at": "2025-07-18T08:30:00Z",
+          "category": "Feedback",
+          "estimated_time_minutes": 15,
+          "number_of_questions": 24,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_013.png",
+          "group": "C"
+        }
+      ]
+    },
+    {
+      "category_name": "Lifestyle",
+      "surveys": [
+        {
+          "id": "survey_014",
+          "title": "Travel Preferences 2025",
+          "description": "Tell us how you plan your trips and what kind of destinations you prefer.",
+          "created_at": "2025-07-05T10:10:00Z",
+          "category": "Travel",
+          "estimated_time_minutes": 12,
+          "number_of_questions": 20,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_014.png",
+          "group": "A"
+        },
+        {
+          "id": "survey_015",
+          "title": "Home Decor Inspiration",
+          "description": "We want to know your taste in home styling and interiors.",
+          "created_at": "2025-07-11T09:40:00Z",
+          "category": "Design",
+          "estimated_time_minutes": 10,
+          "number_of_questions": 16,
+          "is_completed": true,
+          "thumbnail_url": null,
+          "group": "B"
+        },
+        {
+          "id": "survey_016",
+          "title": "Personal Finance Habits",
+          "description": "Share how you save, spend, and invest money monthly.",
+          "created_at": "2025-07-08T08:20:00Z",
+          "category": "Finance",
+          "estimated_time_minutes": 14,
+          "number_of_questions": 22,
+          "is_completed": false,
+          "thumbnail_url": "https://example.com/images/survey_016.png",
+          "group": "C"
+        }
+      ]
+    }
+  ]
+}
